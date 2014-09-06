@@ -1,0 +1,41 @@
+{
+  "name": "webpack-angular-injector-plugin",
+  "version": "0.0.1",
+  "description": "This Webpack plugin is meant to solve an annoying problem of minification and dependency injection in Angular.js.",
+  "keywords": ["webpack", "plugin", "angular", "angularjs", "minification", "di"],
+  "homepage": "https://github.com/alexgorbatchev/webpack-angular-injector-plugin",
+  "bugs": "https://github.com/alexgorbatchev/webpack-angular-injector-plugin/issues",
+  "author": {
+    "name": "Alex Gorbatchev",
+    "url": "https://github.com/alexgorbatchev"
+  },
+  "main": "./lib/webpack-angular-injector-plugin.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexgorbatchev/webpack-angular-injector-plugin.git"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "dependencies": {
+    "angular-injector": "^1.0.0",
+    "webpack-core": "^0.4.8"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "coffee-errors": "^0.8.5",
+    "coffee-script": "^1.7.1",
+    "gulp": "^3.8.6",
+    "gulp-coffee": "^2.1.1",
+    "gulp-istanbul": "^0.2.1",
+    "gulp-mocha": "^0.5.1",
+    "gulp-util": "^3.0.0",
+    "mocha": "^1.18.2",
+    "webpack": "^1.4.0-beta3"
+  },
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">=1.2.10"
+  },
+  "license": "MIT"
+}
